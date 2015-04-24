@@ -19,7 +19,7 @@ OscP5 oscP5;
 
 // num faces found
 int found;
-
+// modification of Dan Wilcox's original 
 // pose
 float poseScale;
 PVector posePosition = new PVector();
@@ -37,10 +37,10 @@ float nostrils;
 //float pointx;
 //float pointy;
 
-PImage[] lips= new PImage[6];
-PImage[] nose= new PImage[8];
-PImage[] leftEye= new PImage[10];
-PImage[] rightEye= new PImage[10];
+PImage[] lips= new PImage[7];
+PImage[] nose= new PImage[9];
+PImage[] leftEye= new PImage[11];
+PImage[] rightEye= new PImage[11];
 PImage[] leftBrow= new PImage[5];
 PImage[] rightBrow= new PImage[5];
 

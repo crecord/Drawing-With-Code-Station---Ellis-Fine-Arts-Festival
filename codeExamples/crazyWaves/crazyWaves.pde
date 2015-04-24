@@ -25,19 +25,18 @@ void setup() {
 
   //size of the application window in pixels.
   size(1200, 768);
- 
+
   smooth();
   noFill();
   // this sets how many times the draw function loops per second.
   frameRate(1);
-
 }
 
 //The draw function runs every frame. 
 void draw() {
 
   //color of the background in an RGB scale.
-  background(255,255,255);
+  background(255, 255, 255);
   //brickWidth is just that, the width of the individual bricks. right now, they are set to 40pix wide.
   brickWidth = 26;
   //brickHeight is the same. 15pix wide.
@@ -73,13 +72,12 @@ void draw() {
     }
     popMatrix();
   }
-
 }
 
 
 void keyPressed() {
- if (key == 's' ) {
-   println ("saving new drawing!");
-   save("crazyWaves_" +millis()+ ".jpg");
- }
+  if (key == 's' ) {
+    println ("saving new drawing!");
+    save("crazyWaves_" +millis()+ ".jpg");
+  }
 }
